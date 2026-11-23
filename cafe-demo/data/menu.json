@@ -1,0 +1,355 @@
+{
+ "demo": true,
+ "locale_default": "ar",
+ "vat_percent": 15,
+ "theme": {
+  "bg": "#f4efe6",
+  "card": "#fffaf3",
+  "ink": "#1c1410",
+  "muted": "#6b5d52",
+  "accent": "#4a2c1c",
+  "accent_ink": "#ffffff",
+  "accent2": "#c4a06a",
+  "wa": "#128c7e",
+  "hero_shade": "rgba(30,18,10,.6)",
+  "chip_bg": "#efe6d6"
+ },
+ "brand": {
+  "name_ar": "كافيه نموذج",
+  "name_en": "Namothaj Cafe"
+ },
+ "meta": {
+  "title_ar": "كافيه نموذج — منيو رقمي مطابق (نموذج)",
+  "title_en": "Namothaj Cafe — Compliant digital menu (demo)"
+ },
+ "banner": {
+  "text_ar": "نموذج تجريبي — كافيه وهمي، الأسماء والقيم للعرض فقط",
+  "text_en": "Demo — fictional cafe; names and values are for display only"
+ },
+ "hero": {
+  "image": "images/hero.jpg",
+  "kicker_ar": "منيو رقمي مطابق لاشتراطات هيئة الغذاء والدواء",
+  "kicker_en": "Digital menu · SFDA-ready",
+  "lead_ar": "سعرات، حساسية، كافيين، وطلب مرتّب عبر واتساب — بدون تطبيق.",
+  "lead_en": "Calories, allergens, caffeine and a tidy WhatsApp order — no app needed."
+ },
+ "whatsapp": {
+  "number": ""
+ },
+ "hours": {
+  "timezone": "Asia/Riyadh",
+  "label_ar": "أوقات العمل",
+  "label_en": "Opening hours",
+  "lines": [
+   {
+    "t_ar": "السبت – الخميس: 7:00 صباحًا حتى منتصف الليل",
+    "t_en": "Sat–Thu: 7:00 AM – midnight"
+   },
+   {
+    "t_ar": "الجمعة: 1:00 ظهرًا حتى منتصف الليل",
+    "t_en": "Fri: 1:00 PM – midnight"
+   }
+  ],
+  "weekly": [
+   {
+    "days": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     6
+    ],
+    "open": "07:00",
+    "close": "24:00"
+   },
+   {
+    "days": [
+     5
+    ],
+    "open": "13:00",
+    "close": "24:00"
+   }
+  ]
+ },
+ "location": {
+  "address_ar": "سكاكا، الجوف — عنوان وهمي للنموذج.",
+  "address_en": "Sakaka, Al-Jawf — fictional demo address.",
+  "link_ar": "فتح الخريطة",
+  "link_en": "Open map",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=Sakaka%2C%20Al%20Jawf%2C%20Saudi%20Arabia"
+ },
+ "footer": {
+  "l1_ar": "كافيه نموذج — نموذج عرض",
+  "l1_en": "Namothaj Cafe — showcase demo",
+  "l2_ar": "القيم الغذائية (السعرات، الكافيين، مدة المشي) تقديرية للعرض. في المشروع الحقيقي تكون المنشأة مسؤولة عن دقة السعرات والحساسية والأسعار، وتحتفظ بوثيقة تحليل السعرات.",
+  "l2_en": "Nutrition values (calories, caffeine, walking time) are display estimates. In a real project the venue is responsible for the accuracy of calories, allergens and prices.",
+  "l3_ar": "الصور من Unsplash وPexels (رخص مجانية) للنموذج فقط. مدة المشي تقدير بافتراض ٥ سعرات/دقيقة، وتُستبدل بالقيمة المعتمدة في اللائحة.",
+  "l3_en": "Photos from Unsplash/Pexels (free licenses), demo only. Walking time assumes 5 kcal/min and should be replaced by the value defined in the official regulation."
+ },
+ "ui": {
+  "currency_ar": "ر.س",
+  "currency_en": "SAR"
+ },
+ "order": {
+  "enabled": true
+ },
+ "categories": [
+  {
+   "id": "coffee",
+   "name_ar": "قهوة مختصة",
+   "name_en": "Specialty coffee",
+   "items": [
+    {
+     "id": "v60",
+     "name_ar": "V60 قهوة مختصة",
+     "name_en": "V60 pour-over",
+     "desc_ar": "تحضير يدوي بكأس V60، نكهة زهرية وحلاوة خفيفة.",
+     "desc_en": "Hand-brewed in a V60, floral with a gentle sweetness.",
+     "price": 18,
+     "kcal": 5,
+     "allergens": [],
+     "may": [],
+     "caffeine_mg": 95,
+     "image": "images/v60.jpg"
+    },
+    {
+     "id": "espresso",
+     "name_ar": "إسبريسو",
+     "name_en": "Espresso",
+     "desc_ar": "جرعة مركّزة غنية بالكريما.",
+     "desc_en": "A concentrated shot with rich crema.",
+     "price": 12,
+     "kcal": 5,
+     "allergens": [],
+     "may": [],
+     "caffeine_mg": 64,
+     "image": "images/espresso.jpg"
+    },
+    {
+     "id": "cappuccino",
+     "name_ar": "كابتشينو",
+     "name_en": "Cappuccino",
+     "desc_ar": "إسبريسو مع حليب مبخّر ورغوة كثيفة.",
+     "desc_en": "Espresso with steamed milk and dense foam.",
+     "price": 16,
+     "kcal": 90,
+     "allergens": [
+      "milk"
+     ],
+     "may": [],
+     "caffeine_mg": 64,
+     "image": "images/cappuccino.jpg"
+    },
+    {
+     "id": "spanish",
+     "name_ar": "لاتيه إسباني",
+     "name_en": "Spanish latte",
+     "desc_ar": "إسبريسو مع حليب مكثّف محلّى.",
+     "desc_en": "Espresso with sweetened condensed milk.",
+     "price": 19,
+     "kcal": 180,
+     "allergens": [
+      "milk"
+     ],
+     "may": [],
+     "caffeine_mg": 64,
+     "image": "images/spanish-latte.jpg"
+    }
+   ]
+  },
+  {
+   "id": "cold",
+   "name_ar": "مشروبات باردة",
+   "name_en": "Cold drinks",
+   "items": [
+    {
+     "id": "icedlatte",
+     "name_ar": "آيس لاتيه",
+     "name_en": "Iced latte",
+     "desc_ar": "إسبريسو مع حليب بارد وثلج.",
+     "desc_en": "Espresso over cold milk and ice.",
+     "price": 18,
+     "kcal": 140,
+     "allergens": [
+      "milk"
+     ],
+     "may": [],
+     "caffeine_mg": 64,
+     "image": "images/iced-latte.jpg"
+    },
+    {
+     "id": "mojito",
+     "name_ar": "موهيتو ليمون",
+     "name_en": "Lemon mojito",
+     "desc_ar": "ليمون ونعناع طازج مع صودا.",
+     "desc_en": "Lemon and fresh mint with soda.",
+     "price": 16,
+     "kcal": 90,
+     "allergens": [],
+     "may": [],
+     "image": "images/berry.jpg"
+    },
+    {
+     "id": "matcha",
+     "name_ar": "ماتشا مثلج",
+     "name_en": "Iced matcha",
+     "desc_ar": "ماتشا مع حليب بارد.",
+     "desc_en": "Matcha with cold milk.",
+     "price": 20,
+     "kcal": 150,
+     "allergens": [
+      "milk"
+     ],
+     "may": [
+      "soy"
+     ],
+     "caffeine_mg": 70,
+     "image": "images/matcha.jpg"
+    },
+    {
+     "id": "karak",
+     "name_ar": "كرك بالحليب",
+     "name_en": "Karak chai",
+     "desc_ar": "شاي كرك بالهيل والحليب.",
+     "desc_en": "Cardamom karak tea with milk.",
+     "price": 14,
+     "kcal": 80,
+     "allergens": [
+      "milk"
+     ],
+     "may": [],
+     "caffeine_mg": 45,
+     "image": "images/karak.jpg"
+    }
+   ]
+  },
+  {
+   "id": "dessert",
+   "name_ar": "حلا",
+   "name_en": "Dessert",
+   "items": [
+    {
+     "id": "donut",
+     "name_ar": "دونات شوكولاتة",
+     "name_en": "Chocolate donut",
+     "desc_ar": "دونات طرية بغطاء شوكولاتة.",
+     "desc_en": "Soft donut with chocolate glaze.",
+     "price": 16,
+     "kcal": 320,
+     "allergens": [
+      "gluten",
+      "eggs",
+      "milk"
+     ],
+     "may": [
+      "soy",
+      "treenuts"
+     ],
+     "activity_min": 65,
+     "image": "images/donuts.jpg"
+    },
+    {
+     "id": "cheesecake",
+     "name_ar": "تشيز كيك التوت",
+     "name_en": "Berry cheesecake",
+     "desc_ar": "تشيز كيك كريمي بصلصة التوت.",
+     "desc_en": "Creamy cheesecake with berry sauce.",
+     "price": 24,
+     "kcal": 350,
+     "allergens": [
+      "gluten",
+      "eggs",
+      "milk"
+     ],
+     "may": [],
+     "activity_min": 70,
+     "image": "images/cheesecake.jpg"
+    },
+    {
+     "id": "brownie",
+     "name_ar": "براوني",
+     "name_en": "Brownie",
+     "desc_ar": "براوني شوكولاتة غني.",
+     "desc_en": "Rich chocolate brownie.",
+     "price": 18,
+     "kcal": 380,
+     "allergens": [
+      "gluten",
+      "eggs",
+      "milk"
+     ],
+     "may": [
+      "treenuts",
+      "peanuts"
+     ],
+     "activity_min": 75,
+     "image": "images/brownie.jpg"
+    }
+   ]
+  },
+  {
+   "id": "breakfast",
+   "name_ar": "فطور",
+   "name_en": "Breakfast",
+   "items": [
+    {
+     "id": "bfast",
+     "name_ar": "فطور الصباح",
+     "name_en": "Morning breakfast plate",
+     "desc_ar": "بيض، جبنة، خبز وخضار.",
+     "desc_en": "Eggs, cheese, bread and vegetables.",
+     "price": 32,
+     "kcal": 520,
+     "allergens": [
+      "eggs",
+      "milk",
+      "gluten"
+     ],
+     "may": [
+      "sesame"
+     ],
+     "high_salt": true,
+     "activity_min": 105,
+     "image": "images/breakfast.jpg"
+    },
+    {
+     "id": "avotoast",
+     "name_ar": "توست أفوكادو",
+     "name_en": "Avocado toast",
+     "desc_ar": "خبز محمص مع أفوكادو وبذور.",
+     "desc_en": "Toasted bread with avocado and seeds.",
+     "price": 28,
+     "kcal": 410,
+     "allergens": [
+      "gluten"
+     ],
+     "may": [
+      "sesame"
+     ],
+     "activity_min": 80,
+     "image": "images/avocado.jpg"
+    },
+    {
+     "id": "shakshuka",
+     "name_ar": "شاكشوكة",
+     "name_en": "Shakshuka",
+     "desc_ar": "بيض بصلصة الطماطم الحارة مع الخبز.",
+     "desc_en": "Eggs in spicy tomato sauce with bread.",
+     "price": 26,
+     "kcal": 390,
+     "allergens": [
+      "eggs",
+      "gluten"
+     ],
+     "may": [
+      "celery"
+     ],
+     "high_salt": true,
+     "activity_min": 80,
+     "image": "images/shakshuka.jpg"
+    }
+   ]
+  }
+ ]
+}
