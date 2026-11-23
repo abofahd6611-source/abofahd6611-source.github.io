@@ -1,0 +1,331 @@
+{
+ "demo": true,
+ "locale_default": "ar",
+ "vat_percent": 15,
+ "theme": {
+  "bg": "#17120f",
+  "card": "#241b16",
+  "ink": "#f6ece1",
+  "muted": "#b9a898",
+  "accent": "#e2552b",
+  "accent_ink": "#ffffff",
+  "accent2": "#f2a65a",
+  "wa": "#1aa37a",
+  "hero_shade": "rgba(10,6,4,.78)",
+  "chip_bg": "#33261e",
+  "line": "rgba(255,255,255,.12)",
+  "field": "#2e231c"
+ },
+ "brand": {
+  "name_ar": "مشويات جمر",
+  "name_en": "Jamr Grill House"
+ },
+ "meta": {
+  "title_ar": "مشويات جمر — منيو رقمي مطابق (نموذج)",
+  "title_en": "Jamr Grill House — Compliant digital menu (demo)"
+ },
+ "banner": {
+  "text_ar": "نموذج تجريبي — مطعم وهمي، الأسماء والقيم للعرض فقط",
+  "text_en": "Demo — fictional restaurant; names and values are for display only"
+ },
+ "hero": {
+  "image": "images/mixed.jpg",
+  "kicker_ar": "برجر ومشاوي · منيو رقمي مطابق",
+  "kicker_en": "Burgers & grills · SFDA-ready menu",
+  "lead_ar": "اختر أصنافك، شوف السعرات والحساسية، وأرسل الطلب عبر واتساب.",
+  "lead_en": "Pick your items, see calories and allergens, and send the order on WhatsApp."
+ },
+ "whatsapp": {
+  "number": ""
+ },
+ "hours": {
+  "timezone": "Asia/Riyadh",
+  "label_ar": "أوقات العمل",
+  "label_en": "Opening hours",
+  "lines": [
+   {
+    "t_ar": "يوميًا: 12:00 ظهرًا حتى 1:00 بعد منتصف الليل",
+    "t_en": "Daily: 12:00 PM – 1:00 AM"
+   }
+  ],
+  "weekly": [
+   {
+    "days": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    "open": "12:00",
+    "close": "24:00"
+   }
+  ]
+ },
+ "location": {
+  "address_ar": "الرياض — عنوان وهمي للنموذج.",
+  "address_en": "Riyadh — fictional demo address.",
+  "link_ar": "فتح الخريطة",
+  "link_en": "Open map",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=Riyadh%2C%20Saudi%20Arabia"
+ },
+ "footer": {
+  "l1_ar": "مشويات جمر — نموذج عرض",
+  "l1_en": "Jamr Grill House — showcase demo",
+  "l2_ar": "القيم الغذائية (السعرات، الكافيين، مدة المشي) تقديرية للعرض. في المشروع الحقيقي تكون المنشأة مسؤولة عن دقة السعرات والحساسية والأسعار، وتحتفظ بوثيقة تحليل السعرات.",
+  "l2_en": "Nutrition values (calories, caffeine, walking time) are display estimates. In a real project the venue is responsible for the accuracy of calories, allergens and prices.",
+  "l3_ar": "صور الأطباق مولّدة بالذكاء الاصطناعي لهذا النموذج. مدة المشي تقدير بافتراض ٥ سعرات/دقيقة، وتُستبدل بالقيمة المعتمدة في اللائحة.",
+  "l3_en": "Dish photos are AI-generated for this demo. Walking time assumes 5 kcal/min and should be replaced by the value defined in the official regulation."
+ },
+ "ui": {
+  "currency_ar": "ر.س",
+  "currency_en": "SAR"
+ },
+ "order": {
+  "enabled": true
+ },
+ "categories": [
+  {
+   "id": "burgers",
+   "name_ar": "برجر",
+   "name_en": "Burgers",
+   "items": [
+    {
+     "id": "classic",
+     "name_ar": "برجر لحم كلاسيك",
+     "name_en": "Classic beef burger",
+     "desc_ar": "قطعة لحم بقري مشوية، جبنة شيدر، خس وطماطم في خبز طري.",
+     "desc_en": "Grilled beef patty, cheddar, lettuce and tomato in a soft bun.",
+     "price": 38,
+     "kcal": 720,
+     "allergens": [
+      "gluten",
+      "milk",
+      "sesame"
+     ],
+     "may": [
+      "eggs",
+      "mustard"
+     ],
+     "high_salt": true,
+     "activity_min": 145,
+     "image": "images/burger.jpg"
+    },
+    {
+     "id": "double",
+     "name_ar": "دبل تشيز برجر",
+     "name_en": "Double cheese burger",
+     "desc_ar": "قطعتا لحم وجبنتان مع صلصة الجمر.",
+     "desc_en": "Two patties, double cheese and house smoke sauce.",
+     "price": 52,
+     "kcal": 980,
+     "allergens": [
+      "gluten",
+      "milk",
+      "sesame",
+      "mustard"
+     ],
+     "may": [
+      "eggs"
+     ],
+     "high_salt": true,
+     "activity_min": 195
+    },
+    {
+     "id": "crispy",
+     "name_ar": "برجر دجاج مقرمش",
+     "name_en": "Crispy chicken burger",
+     "desc_ar": "صدر دجاج مقرمش مع مايونيز وخس.",
+     "desc_en": "Crispy chicken breast with mayo and lettuce.",
+     "price": 34,
+     "kcal": 640,
+     "allergens": [
+      "gluten",
+      "eggs",
+      "milk",
+      "soy"
+     ],
+     "may": [
+      "sesame"
+     ],
+     "activity_min": 130
+    }
+   ]
+  },
+  {
+   "id": "grills",
+   "name_ar": "مشاوي",
+   "name_en": "Grills",
+   "items": [
+    {
+     "id": "mixed",
+     "name_ar": "مشاوي مشكّلة",
+     "name_en": "Mixed grill platter",
+     "desc_ar": "كباب لحم، شيش طاووق، طماطم وبصل مشويان، خبز وعشبة.",
+     "desc_en": "Lamb kebab, shish tawook, grilled tomato and onion, bread and herbs.",
+     "price": 95,
+     "kcal": 1450,
+     "allergens": [
+      "gluten",
+      "milk"
+     ],
+     "may": [
+      "sesame",
+      "celery"
+     ],
+     "high_salt": true,
+     "activity_min": 290,
+     "image": "images/mixed.jpg"
+    },
+    {
+     "id": "tawook",
+     "name_ar": "شيش طاووق",
+     "name_en": "Shish tawook",
+     "desc_ar": "أسياخ دجاج متبّلة بالزبادي مع خضار مشوية وصلصة ثوم.",
+     "desc_en": "Yogurt-marinated chicken skewers with grilled vegetables and garlic sauce.",
+     "price": 48,
+     "kcal": 520,
+     "allergens": [
+      "milk"
+     ],
+     "may": [
+      "sesame",
+      "mustard"
+     ],
+     "activity_min": 105,
+     "image": "images/tawook.jpg"
+    },
+    {
+     "id": "kebab",
+     "name_ar": "كباب لحم",
+     "name_en": "Lamb kebab",
+     "desc_ar": "أسياخ لحم مفروم متبّل على الفحم مع خبز.",
+     "desc_en": "Seasoned minced lamb skewers on charcoal, with bread.",
+     "price": 62,
+     "kcal": 680,
+     "allergens": [
+      "gluten"
+     ],
+     "may": [
+      "milk",
+      "sesame"
+     ],
+     "high_salt": true,
+     "activity_min": 135
+    }
+   ]
+  },
+  {
+   "id": "sides",
+   "name_ar": "جانبية وإضافات",
+   "name_en": "Sides & extras",
+   "items": [
+    {
+     "id": "fries",
+     "name_ar": "بطاطس مقلية",
+     "name_en": "French fries",
+     "desc_ar": "بطاطس مقرمشة بالملح.",
+     "desc_en": "Crispy salted fries.",
+     "price": 15,
+     "kcal": 380,
+     "allergens": [],
+     "may": [
+      "gluten",
+      "soy"
+     ],
+     "activity_min": 75
+    },
+    {
+     "id": "fattoush",
+     "name_ar": "سلطة فتوش",
+     "name_en": "Fattoush salad",
+     "desc_ar": "خضار طازجة وخبز محمص ودبس الرمان.",
+     "desc_en": "Fresh vegetables, toasted bread and pomegranate molasses.",
+     "price": 14,
+     "kcal": 180,
+     "allergens": [
+      "gluten"
+     ],
+     "may": [
+      "sesame"
+     ],
+     "activity_min": 35
+    },
+    {
+     "id": "hummus",
+     "name_ar": "حمص",
+     "name_en": "Hummus",
+     "desc_ar": "حمص بالطحينة وزيت الزيتون.",
+     "desc_en": "Chickpea hummus with tahini and olive oil.",
+     "price": 13,
+     "kcal": 230,
+     "allergens": [
+      "sesame"
+     ],
+     "may": [],
+     "activity_min": 45
+    },
+    {
+     "id": "garlic",
+     "name_ar": "صلصة ثوم (إضافة)",
+     "name_en": "Garlic sauce (extra)",
+     "desc_ar": "علبة صغيرة، تُحتسب سعراتها منفصلة.",
+     "desc_en": "Small cup — calories counted separately.",
+     "price": 3,
+     "kcal": 90,
+     "allergens": [
+      "eggs"
+     ],
+     "may": [
+      "mustard"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "drinks",
+   "name_ar": "مشروبات",
+   "name_en": "Drinks",
+   "items": [
+    {
+     "id": "laban",
+     "name_ar": "عيران",
+     "name_en": "Ayran",
+     "desc_ar": "لبن بارد مملّح خفيفًا.",
+     "desc_en": "Chilled lightly salted yogurt drink.",
+     "price": 6,
+     "kcal": 90,
+     "allergens": [
+      "milk"
+     ],
+     "may": []
+    },
+    {
+     "id": "lemonmint",
+     "name_ar": "ليمون بالنعناع",
+     "name_en": "Lemon-mint",
+     "desc_ar": "عصير ليمون طازج مع نعناع.",
+     "desc_en": "Fresh lemon juice with mint.",
+     "price": 12,
+     "kcal": 110,
+     "allergens": [],
+     "may": []
+    },
+    {
+     "id": "tea",
+     "name_ar": "شاي أحمر",
+     "name_en": "Black tea",
+     "desc_ar": "كوب شاي ساخن.",
+     "desc_en": "Hot cup of black tea.",
+     "price": 6,
+     "kcal": 0,
+     "allergens": [],
+     "may": [],
+     "caffeine_mg": 40
+    }
+   ]
+  }
+ ]
+}
