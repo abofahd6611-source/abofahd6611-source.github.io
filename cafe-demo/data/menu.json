@@ -19,8 +19,8 @@
   "name_en": "Namothaj Cafe"
  },
  "meta": {
-  "title_ar": "كافيه نموذج — منيو رقمي مطابق (نموذج)",
-  "title_en": "Namothaj Cafe — Compliant digital menu (demo)"
+  "title_ar": "كافيه نموذج — منيو رقمي بحقول الغذاء والدواء (نموذج)",
+  "title_en": "Namothaj Cafe — digital menu with SFDA fields (demo)"
  },
  "banner": {
   "text_ar": "نموذج تجريبي — كافيه وهمي، الأسماء والقيم للعرض فقط",
@@ -28,8 +28,8 @@
  },
  "hero": {
   "image": "images/hero.jpg",
-  "kicker_ar": "منيو رقمي مطابق لاشتراطات هيئة الغذاء والدواء",
-  "kicker_en": "Digital menu · SFDA-ready",
+  "kicker_ar": "منيو رقمي جاهز لعرض بيانات اشتراطات هيئة الغذاء والدواء",
+  "kicker_en": "Digital menu · built for SFDA display rules",
   "lead_ar": "سعرات، حساسية، كافيين، وطلب مرتّب عبر واتساب — بدون تطبيق.",
   "lead_en": "Calories, allergens, caffeine and a tidy WhatsApp order — no app needed."
  },

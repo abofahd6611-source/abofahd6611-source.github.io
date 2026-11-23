@@ -13,16 +13,16 @@
   "wa": "#1aa37a",
   "hero_shade": "rgba(10,6,4,.78)",
   "chip_bg": "#33261e",
-  "line": "rgba(255,255,255,.12)",
-  "field": "#2e231c"
+  "field": "#2e231c",
+  "line": "rgba(255,255,255,.12)"
  },
  "brand": {
   "name_ar": "مشويات جمر",
   "name_en": "Jamr Grill House"
  },
  "meta": {
-  "title_ar": "مشويات جمر — منيو رقمي مطابق (نموذج)",
-  "title_en": "Jamr Grill House — Compliant digital menu (demo)"
+  "title_ar": "مشويات جمر — منيو رقمي بحقول الغذاء والدواء (نموذج)",
+  "title_en": "Jamr Grill House — digital menu with SFDA fields (demo)"
  },
  "banner": {
   "text_ar": "نموذج تجريبي — مطعم وهمي، الأسماء والقيم للعرض فقط",
@@ -30,8 +30,8 @@
  },
  "hero": {
   "image": "images/mixed.jpg",
-  "kicker_ar": "برجر ومشاوي · منيو رقمي مطابق",
-  "kicker_en": "Burgers & grills · SFDA-ready menu",
+  "kicker_ar": "برجر ومشاوي · منيو رقمي بحقول الغذاء والدواء",
+  "kicker_en": "Burgers & grills · menu with SFDA fields",
   "lead_ar": "اختر أصنافك، شوف السعرات والحساسية، وأرسل الطلب عبر واتساب.",
   "lead_en": "Pick your items, see calories and allergens, and send the order on WhatsApp."
  },
